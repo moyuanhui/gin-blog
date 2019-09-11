@@ -1,10 +1,10 @@
 package routers
 
 import (
+	v1 "gin-blog/apis/v1"
+	"gin-blog/pkg/setting"
 	"net/http"
 
-	v1 "github.com/gin-blog/apis/v1"
-	"github.com/gin-blog/pkg/setting"
 	"github.com/gin-gonic/gin"
 )
 

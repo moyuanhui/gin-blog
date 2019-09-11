@@ -1,10 +1,9 @@
 package main
 
 import (
+	"gin-blog/pkg/setting"
+	"gin-blog/routers"
 	"net/http"
-
-	"github.com/gin-blog/pkg/setting"
-	"github.com/gin-blog/routers"
 )
 
 func main() {

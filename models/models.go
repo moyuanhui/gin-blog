@@ -2,9 +2,9 @@ package models
 
 import (
 	"fmt"
+	"gin-blog/pkg/setting"
 	"log"
 
-	"github.com/gin-blog/pkg/setting"
 	"github.com/jinzhu/gorm"
 )
 

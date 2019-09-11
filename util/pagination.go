@@ -1,8 +1,9 @@
 package util
 
 import (
+	"gin-blog/pkg/setting"
+
 	"github.com/Unknwon/com"
-	"github.com/gin-blog/pkg/setting"
 	"github.com/gin-gonic/gin"
 )
 
@@ -12,5 +13,5 @@ func GetPage(c *gin.Context) int {
 	if page > 0 {
 		result = (page - 1) * setting.PageSize
 	}
-	return page
+	return result
 }
